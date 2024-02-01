@@ -211,7 +211,7 @@ public class CreateUserPageObj {
 		Actions act = new Actions(driver);
 		act.moveToElement(date).click().build().perform();
 		Thread.sleep(1000);
-		WebElement date2 = driver.findElement(By.xpath("//span[text()=' 4 ']/.."));
+		WebElement date2 = driver.findElement(By.xpath("//span[text()=' 1 ']/.."));
 		act.moveToElement(date2).click().build().perform();
 		Thread.sleep(2000);
 		cup.getSufixDropDown().click();
